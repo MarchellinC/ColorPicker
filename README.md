@@ -1,6 +1,6 @@
 # 🎨 Color Picker App (Dominant Color Extractor)
 
-## 📌 Deskripsi
+## Deskripsi
 Color Picker App adalah aplikasi berbasis **Streamlit** yang memungkinkan pengguna:
 - Mengupload gambar
 - Mengekstrak warna dominan dari gambar
@@ -10,17 +10,17 @@ Aplikasi ini menggunakan **Machine Learning (KMeans Clustering)** untuk mengiden
 
 ---
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
-- 🖼️ Upload gambar (JPG/PNG)
-- 🎯 Ekstraksi 5 warna dominan otomatis
-- 🎨 Tampilan warna dalam bentuk swatch
-- 🌈 Background UI dinamis mengikuti warna gambar
-- 🔢 Output kode warna HEX
+- Upload gambar (JPG/PNG)
+- Ekstraksi 5 warna dominan otomatis
+- Tampilan warna dalam bentuk swatch
+- Background UI dinamis mengikuti warna gambar
+- Output kode warna HEX
 
 ---
 
-## 🧠 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 - Python
 - Streamlit
@@ -30,7 +30,7 @@ Aplikasi ini menggunakan **Machine Learning (KMeans Clustering)** untuk mengiden
 
 ---
 
-## ⚙️ Cara Menjalankan
+## Cara Menjalankan
 
 ### 1. Clone Repository
 ```bash
@@ -50,7 +50,7 @@ streamlit run app.py
 
 ---
 
-## 🔍 Cara Kerja
+## Cara Kerja
 
 1. User upload gambar
 2. Gambar diproses dan di-resize
@@ -62,40 +62,3 @@ streamlit run app.py
    - Background dinamis
 
 ---
-
-## 📊 Machine Learning
-
-- Algoritma: KMeans Clustering
-- Input: Pixel RGB
-- Output: Cluster warna dominan
-
----
-
-## 🌟 Keunggulan
-
-- UI modern dan responsif
-- Background adaptif berdasarkan warna gambar
-- Cepat dan ringan
-- Cocok untuk desain, branding, dan analisis warna
-
----
-
-## 🚧 Future Improvement
-
-- Export palette ke file
-- Copy HEX dengan klik
-- Support lebih banyak warna
-- Integrasi dengan tools design
-
----
-
-## 👨‍💻 Author
-Marchellin Chenika
-
----
-
-## ⭐ Support
-Jika project ini membantu:
-- ⭐ Star repo
-- 🍴 Fork repo
-- 📢 Share ke LinkedIn
